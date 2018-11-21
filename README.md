@@ -1,0 +1,2 @@
+# haskell_web_memo
+Haskellのウェブ関係技術についての備忘録
