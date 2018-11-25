@@ -1,4 +1,4 @@
-var ball = null;
+let ball = null;
 
 function setup() {
   class Ball {
