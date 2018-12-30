@@ -1,5 +1,6 @@
 import Web.Spock
 import Web.Spock.Config
+import Data.Text
 
 main :: IO ()
 main = do
@@ -11,4 +12,4 @@ app = do
   get root $
     html "Hello World!"
   get ("hello" <//> var) $ \name -> do
-    html ("Hello " <> name)
+    html ("Hello " `append` name)
